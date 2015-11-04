@@ -1,5 +1,0 @@
-default.sublime-keymap
-
-[
-  { "keys": [ "ctrl+shift+v" ], "command": "view_in_browser" }
-]

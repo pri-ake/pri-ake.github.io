@@ -2,52 +2,58 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>文具のアオキ -bung no aoki-</title>
+  <title>文具のアオキ -Bung no Aoki-</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header id="top">
-    <h1><a href="index.html"><img src="images/aoki-logo.png" alt="文具のアオキ -bung no aoki-"></a></h1>
+    <h1><a href="index.html"><img src="images/aoki-logo2.png" height="150" width="500" alt="Bungu no Aoki -文具のアオキ-"></a></h1>
   </header>
   <nav>
     <ul>
-      <li id="nav_info"><a href="#info">info</a></li>
-      <li id="nav_map"><a href="#map">map</a></li>
-      <li id="nav_contact"><a href="#contact">contact</a></li>
-      <li id="nav_prodacts"><a href="#prodacts">prodacts</a></li>
+      <li id="nav_home"><a href="index.html">Home</a></li>
+      <li id="nav_map"><a href="map.html">Map</a></li>
+      <li id="nav_contact"><a href="contact.html">Contact</a></li>
+      <li id="nav_prodacts"><a href="prodacts.html">Prodacts</a></li>
     </ul>
   </nav>
+  <div id="graphic">
+    <ul>
+      <li class="now"><img src="images/shop900-550.jpg" alt="店舗外観" class="image1"></li>
+      <li><img src="images/zakka900-550.jpg" alt="店舗内観" class="image2"></li>
+      <li><img src="images/pen&book900-550.jpg" alt="ペン＆本" class="image3"></li>
+    </ul>
+  </div>
   <div id="contents">
     <div id="main">
-      <article id="prodacts">
-        <h1>アオキORIGINAL</h1>
-        <hr>
-        <p>アオキのオリジナル製品をご紹介いたします。</p>
-        <div class="gallery_box">
-          <figure>
-            <img src="images/calc.jpg" alt="calc">
-            <figcaption>クールな雰囲気のブラック電卓</figcaption>
-          </figure>
-          <figure>
-            <img src="images/diary.jpg" alt="diary">
-            <figcaption>システム手帳<br>
-            選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。バイブルサイズは、どなたにもお使いいただけるスタンダードな大きさ。美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。<br>
-            サイズ：164mm×232mm×22mm、重量：502g</figcaption>
-          </figure>
-          <figure>
-            <img src="images/globe.jpg" alt="globe">
-            <figcaption>地球儀<br>
-              地球儀というと、何の変哲もない商品のように思われがちですが、新しい作成法、新しいデザインを得て、非常に興味深い、おしゃれでインテリア性の高い商品になりました。<br>
-              サイズ：30.5cm/4200万分の1、重量：1.4kg</figcaption>
-          </figure>
-        </div>
-      </article>
+      <section id="news">
+        <h2>News</h2>
+        <ul id="holiday"><h3>休業日のお知らせ</h3>
+          <li><time datetime="2015-12-25">2015年12月25日</time>クリスマスの為、休業いたします。</li>
+          <li><time datetime="2015-12-31">2015年12月31日</time>大晦日の為、休業いたします。</li>
+          <li><time datetime="2016-01-01">2016年1月1日</time>お正月の為、休業いたします。</li>
+          <li><time datetime="2016-01-02">2016年1月2日</time>お正月の為、休業いたします。</li>
+          <li><time datetime="2016-01-03">2016年1月3日</time>お正月の為、休業いたします。</li>
+        </ul>
+        <ul id="event"><h3>イベントのお知らせ</h3>
+          <li><time datetime="2015-12-30">2015年12月30日</time>「年末、訳ありセール」開催</li>
+        </ul>
+        <ul id="bait"><h3>アルバイト募集のお知らせ</h3>
+          <li>アオキの仕事をお手伝いしてくださる方を募集しています。<br>
+          ☆手作業が好きな方　☆モノづくりが好きな方。<br>
+          自薦他薦問いません。</li>
+        </ul>
+      </section>
     </div>
-    <div id="sub">
-      
-    </div>
-
   </div>
-
+  <footer>
+    <p id="pagetop"><a href="#top">toTOP</a></p>
+    <p id="copyright"><small>Copyright &copy;2015 Bungu no Aoki All Rights Reserved.</small></p>
+    <ul id="bnr">
+      <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" height="30" width="30" alt="facebook"></a></li>
+      <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" height="30" width="30" alt="twitter"></a></li>
+    </ul>
+  </footer>
+  <script src="js/slideshow.js"></script>
 </body>
 </html>
