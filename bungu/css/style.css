@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+body {
+  background-color: #ffffcf;
+  color: #5f5039;
+  font-size: 87.5%;
+  line-height: 1.5;
+}
+header, nav, #breadcrumb, #contents, footer {
+  margin: 0 auto 0 auto;
+  width: 900px;
+}
+header h1 {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+nav ul {
+  overflow: hidden;
+  padding-left: 0;
+  list-style-type: none;
+  border-top: 3px solid;
+  border-bottom: double;
+}
+nav ul li {
+  margin: 5px 0 5px 0;
+  float: left;
+  width: 225px;
+  text-align: center;
+}
+nav ul li a {
+  overflow: hidden;
+  display: block;
+}
+#contents {
+  overflow: hidden;
+}
+#main {
+  float: left;
+  width: 900px;
+}
+#main h1 {
+  margin: 0 0 20px 0;
+  padding: 35px 0 0 0;
+  font-size: 156.25%;
+  border-bottom: 3px dashed;
+}
+#main h2 {
+  margin: 0 0 20px 0;
+  padding: 35px 0 0 0;
+  font-size: 156.25%;
+  border-bottom: 3px dashed;
+}
+footer {
+  padding-top: 70px;
+}
+#bnr {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#bnr li {
+  float: left;
+  display: block;
+  margin-right: 5px;
+}
+#bnr li a {
+  overflow: hidden;
+}
+#bnr li a img:hover {
+  opacity: 0.7;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+#news ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-bottom: 2px dotted #6c5f45;
+}
+#news ul h3 {
+  margin-bottom: 5px;
+}
+#news ul li {
+  padding: 0 0 5px 175px;
+  color: #342300;
+  text-indent: -175px;
+}
+#news ul li time {
+  display: inline-block;
+  width: 175px;
+  font-weight: bold;
+  color: #6c5f45;
+  text-indent: 0;
+}
+/* トップページ ここまで↑ */
+
+/* 「Map」ページ ここから↓ */
+#map {
+  text-align: center;
+}
+/* 「Map」ページ ここまで↑ */
+
+/* 「prodacts」ページ ここから↓ */
+.gallery_box {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.gallery_box figure {
+  margin: 0 0 15px 15px;
+  width: 290px;
+  float: left;
+}
+.gallery_box figure:first-child {
+  margin-left: 0;
+}
+/* 「Prodacts」ページ ここまで↑ */
+
+/* 「Contact」ページ ここから↓ */
+form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+form p:nth-last-child(2) {
+  margin-bottom: 7px;
+}
+form p:last-child {
+  margin-bottom: 0;
+}
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 300px;
+}
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scroll;
+}
+
+/* 「Contact」ページ ここまで↑ */
